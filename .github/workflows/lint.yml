@@ -11,7 +11,7 @@ env:
 
 jobs:
   lint:
-    name: Lint Markdown files
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,3 +21,5 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
       - run: npm install -g markdownlint-cli
       - run: markdownlint *.md
+      - run: npm install
+      - run: npm run lint

@@ -11,4 +11,6 @@ TBD
 ## Development
 
 - Install [nvm](https://github.com/nvm-sh/nvm#install--update-script)
-- `nvm use`
+- Develop using a working version of node: `nvm use`
+- Install dependencies: `npm install`
+- Lint your code: `npm run lint`

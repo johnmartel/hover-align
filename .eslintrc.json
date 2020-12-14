@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "Hooks": true
+  },
+  "extends": ["eslint:recommended", "plugin:json/recommended", "plugin:prettier/recommended"]
+}

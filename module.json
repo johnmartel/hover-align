@@ -7,6 +7,7 @@
   "minimumCoreVersion": "0.7.8",
   "compatibleCoreVersion": "0.7.8",
   "system": "dnd5e",
+  "scripts": ["scripts/index.js"],
   "url": "https://github.com/johnmartel/hover-align",
   "manifest": "https://raw.githubusercontent.com/johnmartel/hover-align/master/module.json",
   "download": "https://github.com/johnmartel/hover-align/archive/master.zip",
