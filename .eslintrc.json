@@ -1,10 +1,32 @@
 {
   "root": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true,
+    "node": true
   },
   "globals": {
+    "game": true,
     "Hooks": true
   },
-  "extends": ["eslint:recommended", "plugin:json/recommended", "plugin:prettier/recommended"]
+  "extends": ["eslint:recommended", "plugin:json/recommended", "plugin:prettier/recommended", "plugin:import/errors", "plugin:import/warnings"],
+  "rules": {
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false, "argsIgnorePattern": "^_" }]
+  },
+  "overrides": [
+    {
+      "files": ["**/__tests__/**/*.js"],
+      "settings": {
+        "import/resolver": {
+          "jest": {
+            "jestConfigFile": "./jest.config.js"
+          }
+        }
+      }
+    }
+  ]
 }

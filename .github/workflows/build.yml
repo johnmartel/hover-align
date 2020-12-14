@@ -1,4 +1,4 @@
-name: Lint
+name: Build
 
 on:
   pull_request:
@@ -10,8 +10,8 @@ env:
   NODE_VERSION: 14.13.1
 
 jobs:
-  lint:
-    name: Lint
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -29,3 +29,8 @@ jobs:
       - run: markdownlint *.md
       - run: npm ci
       - run: npm run lint
+      - run: npm run test:ci
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          flags: unittests
