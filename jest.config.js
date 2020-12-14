@@ -1,6 +1,6 @@
 module.exports = {
   collectCoverage: true,
-  collectCoverageFrom: ['scripts/**/*.js', '!scripts/index.js', '!node_modules/**'],
+  collectCoverageFrom: ['modules/**/*.js', '!modules/index.js', '!node_modules/**'],
   coverageDirectory: '<rootDir>/reports/coverage',
   coverageThreshold: {
     global: {
