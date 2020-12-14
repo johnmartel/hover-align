@@ -38,4 +38,5 @@ branches:
         contexts: ['Lint']
       required_signatures: true
       enforce_admins: null
+      required_linear_history: true
       restrictions: null
