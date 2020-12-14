@@ -12,7 +12,13 @@ TBD
 
 ## Development
 
+First, have a look at Foundy's [introduction to module development](https://foundryvtt.com/article/module-development/).
+I suggest also looking at the [Languages and Localization](https://foundryvtt.com/article/localization/) article.
+
+Then, it's pretty standard JS development:
+
 - Install [nvm](https://github.com/nvm-sh/nvm#install--update-script)
 - Develop using a working version of node: `nvm use`
 - Install dependencies: `npm install`
 - Lint your code: `npm run lint`
+- Test your code: `npm test`

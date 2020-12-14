@@ -1,4 +1,4 @@
-import * as I18nWrapper from '@scripts/i18nWrapper';
+import * as I18nWrapper from '@modules/i18nWrapper';
 
 describe('i18nWrapper', () => {
   const i18nSource = {

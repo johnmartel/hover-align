@@ -12,7 +12,7 @@ module.exports = {
   },
   moduleFileExtensions: ['js', 'json'],
   moduleNameMapper: {
-    '^@scripts/(.*)$': '<rootDir>/scripts/$1',
+    '^@modules/(.*)$': '<rootDir>/modules/$1',
   },
   reporters: [
     'default',

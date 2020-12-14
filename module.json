@@ -7,7 +7,7 @@
   "minimumCoreVersion": "0.7.8",
   "compatibleCoreVersion": "0.7.8",
   "system": "dnd5e",
-  "esmodules": ["scripts/index.js"],
+  "esmodules": ["modules/index.js"],
   "languages": [
     {
       "lang": "en",
