@@ -1,0 +1,16 @@
+{
+  "name": "hover-align",
+  "title": "HoverAlign",
+  "description": "A basic module to display PC/NPC alignment when hovering over a token",
+  "version": "1.0.0",
+  "author": "John Martel",
+  "minimumCoreVersion": "0.7.8",
+  "compatibleCoreVersion": "0.7.8",
+  "system": "dnd5e",
+  "url": "https://github.com/johnmartel/hover-align",
+  "manifest": "https://raw.githubusercontent.com/johnmartel/hover-align/master/module.json",
+  "download": "https://github.com/johnmartel/hover-align/archive/master.zip",
+  "license": "https://github.com/johnmartel/hover-align/blob/master/LICENSE",
+  "readme": "https://github.com/johnmartel/hover-align/blob/master/README.md",
+  "bugs": "https://github.com/johnmartel/hover-align/issues"
+}
