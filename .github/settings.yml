@@ -20,6 +20,11 @@ labels:
     color: '#70f9e0'
     description: Update dependencies
 
+milestones:
+  - title: 1.0.0
+    description: Minimal working version
+    state: open
+
 branches:
   - name: master
     protection:
@@ -30,7 +35,7 @@ branches:
         dismissal_restrictions: {}
       required_status_checks:
         strict: true
-        contexts: []
+        contexts: ['Lint']
       required_signatures: true
       enforce_admins: null
       restrictions: null
