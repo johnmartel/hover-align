@@ -29,6 +29,15 @@ describe('i18nWrapper', () => {
     expect(i18nSource.localize).toHaveBeenCalledWith('test');
   });
 
+  it('should invoke i18nSource.localize when empty parameters are provided', () => {
+    I18nWrapper.setSource(i18nSource);
+
+    const localizedString = I18nWrapper.localize('test', {});
+
+    expect(localizedString).toBeString();
+    expect(i18nSource.localize).toHaveBeenCalledWith('test');
+  });
+
   it('should invoke i18nSource.format when parameters are provided', () => {
     I18nWrapper.setSource(i18nSource);
 
