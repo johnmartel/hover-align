@@ -1,6 +1,7 @@
 # hover-align
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![](https://api.dependabot.com/badges/status?host=github&repo=johnmartel/hover-align)](https://dependabot.com)
 
 Simple FoundryVTT module that displays character (both PC/NPC) alignment on hovering a token.
 
