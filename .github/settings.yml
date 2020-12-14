@@ -1,0 +1,7 @@
+_extends: .github:.github/_opensource.yml
+
+repository:
+  name: open-source-template
+  description: A basic template for creating new repositories
+  topics: github, configuration, templates
+  is_template: true
