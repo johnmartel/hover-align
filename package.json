@@ -24,6 +24,7 @@
     "eslint": "7.15.0",
     "eslint-config-prettier": "7.0.0",
     "eslint-import-resolver-jest": "3.0.0",
+    "eslint-plugin-foundry-vtt": "0.0.1",
     "eslint-plugin-jest": "24.1.3",
     "eslint-plugin-json": "2.1.2",
     "eslint-plugin-import": "2.22.1",
