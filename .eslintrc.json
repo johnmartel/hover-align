@@ -9,11 +9,14 @@
     "es6": true,
     "node": true
   },
-  "globals": {
-    "game": true,
-    "Hooks": true
-  },
-  "extends": ["eslint:recommended", "plugin:json/recommended", "plugin:prettier/recommended", "plugin:import/errors", "plugin:import/warnings"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:json/recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:foundry-vtt/recommended"
+  ],
   "rules": {
     "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false, "argsIgnorePattern": "^_" }]
   },
