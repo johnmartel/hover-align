@@ -18,6 +18,7 @@
     "plugin:foundry-vtt/recommended"
   ],
   "rules": {
+    "import/extensions": ["error", "always"],
     "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false, "argsIgnorePattern": "^_" }]
   },
   "overrides": [
