@@ -1,12 +1,13 @@
 import * as I18nWrapper from './i18nWrapper';
+import ModuleLogger from './moduleLogger';
 
 function registerModule() {
-  console.info('[hover-align] Initializing module');
+  ModuleLogger.info('Initializing module');
 
   I18nWrapper.setSource(game.i18n);
-  console.info(I18nWrapper.localize('hover-align.title'));
+  ModuleLogger.info(I18nWrapper.localize('hover-align.title'));
 
-  console.info('[hover-align] Done initializing');
+  ModuleLogger.info('Done initializing');
 }
 
 Hooks.once('ready', registerModule);
