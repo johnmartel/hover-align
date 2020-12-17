@@ -9,4 +9,4 @@ function registerModule() {
   console.info('[hover-align] Done initializing');
 }
 
-Hooks.on('ready', registerModule);
+Hooks.once('ready', registerModule);
