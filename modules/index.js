@@ -1,12 +1,15 @@
-import * as I18nWrapper from './i18nWrapper';
+import * as I18nWrapper from './i18nWrapper.js';
+import ModuleLogger from './moduleLogger.js';
+import showAlignment from './showAlignment.js';
 
 function registerModule() {
-  console.info('[hover-align] Initializing module');
+  ModuleLogger.info('Initializing module');
 
   I18nWrapper.setSource(game.i18n);
-  console.info(I18nWrapper.localize('hover-align.title'));
 
-  console.info('[hover-align] Done initializing');
+  Hooks.on('hoverToken', showAlignment);
+
+  ModuleLogger.info('Done initializing');
 }
 
-Hooks.on('ready', registerModule);
+Hooks.once('ready', registerModule);

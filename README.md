@@ -7,9 +7,24 @@
 
 Simple FoundryVTT module that displays character (both PC/NPC) alignment on hovering a token.
 
+It will display the alignment for all tokens to the GM and only for player-owned tokens to players.
+
+This module uses the Core functionality used to display the token tooltip without interfering with it.
+
+![sample](doc/sample.gif)
+
 ## Installation
 
-TBD
+You could either:
+
+1. Navigate to the Foundry Setup screen and click on the Modules tab
+1. Click Install Module and look for HoverAlign
+
+or:
+
+1. Start FVTT and browse to the Game Modules tab in the Configuration and Setup menu
+1. Select the Install Module button and enter the following URL: https://raw.githubusercontent.com/johnmartel/hover-align/master/module.json
+1. Click Install and wait for installation to complete
 
 ## Development
 
