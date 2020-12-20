@@ -2,10 +2,10 @@
   "name": "hover-align",
   "title": "HoverAlign",
   "description": "A basic module to display PC/NPC alignment when hovering over a token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "John Martel",
   "minimumCoreVersion": "0.7.8",
-  "compatibleCoreVersion": "0.7.8",
+  "compatibleCoreVersion": "0.7.9",
   "system": "dnd5e",
   "esmodules": ["modules/index.js"],
   "languages": [
