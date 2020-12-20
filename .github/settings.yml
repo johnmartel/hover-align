@@ -23,7 +23,7 @@ labels:
 milestones:
   - title: 1.0.0
     description: Minimal working version
-    state: open
+    state: closed
 
 branches:
   - name: master
