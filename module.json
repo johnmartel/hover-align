@@ -20,5 +20,6 @@
   "download": "https://github.com/johnmartel/hover-align/archive/master.zip",
   "license": "https://github.com/johnmartel/hover-align/blob/master/LICENSE",
   "readme": "https://github.com/johnmartel/hover-align/blob/master/README.md",
-  "bugs": "https://github.com/johnmartel/hover-align/issues"
+  "bugs": "https://github.com/johnmartel/hover-align/issues",
+  "changelog": "https://github.com/johnmartel/hover-align/blob/master/CHANGELOG.md"
 }
