@@ -24,7 +24,7 @@ module.exports = {
       },
     ],
   ],
-  setupFilesAfterEnv: ['jest-extended'],
+  setupFilesAfterEnv: ['jest-extended/all'],
   testMatch: ['**/__tests__/**/*.test.js'],
   testEnvironment: 'node',
 };
