@@ -37,7 +37,7 @@ describe('showAlignment', () => {
 
       showAlignment(token, true);
 
-      expect(token._getTooltipText()).toEqual('hover-align.alignment.title: Chaotic Evil');
+      expect(token._getTooltipText()).toBe('hover-align.alignment.title: Chaotic Evil');
       expect(token.drawTooltip).toHaveBeenCalled();
       expect(token.refresh).toHaveBeenCalled();
     });
@@ -49,7 +49,7 @@ describe('showAlignment', () => {
 
       showAlignment(token, true);
 
-      expect(token._getTooltipText()).toEqual('+ 300ft\nhover-align.alignment.title: Chaotic Evil');
+      expect(token._getTooltipText()).toBe('+ 300ft\nhover-align.alignment.title: Chaotic Evil');
       expect(token.drawTooltip).toHaveBeenCalled();
       expect(token.refresh).toHaveBeenCalled();
     });
@@ -61,7 +61,7 @@ describe('showAlignment', () => {
 
       showAlignment(token, true);
 
-      expect(token._getTooltipText()).toEqual('hover-align.alignment.title: Chaotic Evil');
+      expect(token._getTooltipText()).toBe('hover-align.alignment.title: Chaotic Evil');
       expect(token.drawTooltip).toHaveBeenCalled();
       expect(token.refresh).toHaveBeenCalled();
     });
@@ -87,7 +87,7 @@ describe('showAlignment', () => {
 
       showAlignment(token, false);
 
-      expect(token._getTooltipText()).toEqual('+ 300ft');
+      expect(token._getTooltipText()).toBe('+ 300ft');
       expect(token.drawTooltip).toHaveBeenCalled();
       expect(token.refresh).toHaveBeenCalled();
     });
