@@ -19,7 +19,7 @@
   "homepage": "https://github.com/johnmartel/hover-align#readme",
   "devDependencies": {
     "@babel/core": "7.16.0",
-    "@babel/preset-env": "7.16.4",
+    "@babel/preset-env": "7.16.5",
     "babel-jest": "27.4.5",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.1.0",
