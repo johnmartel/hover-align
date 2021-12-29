@@ -2,6 +2,9 @@
   "name": "hover-align",
   "version": "1.0.2",
   "description": "A basic FoundryVTT module to display PC/NPC alignment when hovering over a token",
+  "engines": {
+    "npm": "8.2.0"
+  },
   "scripts": {
     "lint": "eslint . --ext .json,.js --max-warnings 0",
     "test": "jest --coverage",

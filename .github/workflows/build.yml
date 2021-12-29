@@ -6,19 +6,32 @@ on:
   push:
     branches: [ master ]
 
-env:
-  NODE_VERSION: 14.13.1
-
 jobs:
+  read-node-version:
+    name: Read Node.js version
+    outputs:
+      node-version: ${{ steps.node-version.outputs.NODE_VERSION }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Read .nvmrc
+        id: node-version
+        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+
   build:
     name: Build
     runs-on: ubuntu-latest
+    needs:
+      - read-node-version
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ env.NODE_VERSION }}
+      - name: Use Node.js ${{ needs.read-node-version.outputs.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: ${{ needs.read-node-version.outputs.node-version }}
       - uses: actions/cache@v2
         with:
           path: ~/.npm
