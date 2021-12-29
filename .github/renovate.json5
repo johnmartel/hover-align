@@ -1,0 +1,15 @@
+{
+  extends: ['config:base', 'schedule:earlyMondays'],
+  labels: ['dependencies'],
+  packageRules: [
+    {
+      matchPackagePatterns: ['.*'],
+      groupName: 'Dependencies',
+    },
+    {
+      matchPackageNames: ['node'],
+      groupName: 'Node.js',
+      allowedVersions: '<17.0.0',
+    },
+  ],
+}
