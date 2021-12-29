@@ -3,7 +3,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9a75ddd0fabb8d5eaf30/maintainability)](https://codeclimate.com/github/johnmartel/hover-align/maintainability)
 [![codecov](https://codecov.io/gh/johnmartel/hover-align/branch/master/graph/badge.svg)](https://codecov.io/gh/johnmartel/hover-align)
-[![Dependabot](https://api.dependabot.com/badges/status?host=github&repo=johnmartel/hover-align)](https://dependabot.com)
 [![downloads by semver](https://img.shields.io/github/downloads/johnmartel/hover-align/latest/total)](https://github.com/johnmartel/hover-align/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/johnmartel/hover-align/total?label=total%20downloads)](https://github.com/johnmartel/hover-align/releases)
 
