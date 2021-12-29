@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.0
+
+- Fix compatibility issues with FoundryVTT v9
+- Update dev dependencies
+
 ## v1.0.2
 
 - Mark as compatible with 0.8.9: no changes required
