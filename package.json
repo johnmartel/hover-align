@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "A basic FoundryVTT module to display PC/NPC alignment when hovering over a token",
   "engines": {
-    "npm": "8.4.1"
+    "npm": "8.5.0"
   },
   "scripts": {
     "lint": "eslint . --ext .json,.js --max-warnings 0",
@@ -21,18 +21,18 @@
   },
   "homepage": "https://github.com/johnmartel/hover-align#readme",
   "devDependencies": {
-    "@babel/core": "7.17.0",
+    "@babel/core": "7.17.3",
     "@babel/preset-env": "7.16.11",
-    "babel-jest": "27.5.0",
-    "eslint": "8.8.0",
+    "babel-jest": "27.5.1",
+    "eslint": "8.9.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-jest": "3.0.2",
     "eslint-plugin-foundry-vtt": "0.0.1",
-    "eslint-plugin-jest": "26.1.0",
+    "eslint-plugin-jest": "26.1.1",
     "eslint-plugin-json": "3.1.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-prettier": "4.0.0",
-    "jest": "27.5.0",
+    "jest": "27.5.1",
     "jest-extended": "2.0.0",
     "jest-junit": "13.0.0",
     "prettier": "2.5.1"
